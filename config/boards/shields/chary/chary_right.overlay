@@ -61,9 +61,8 @@
 };
 
 / {
-    trackball_scroll_listener {
-        compatible = "zmk,input-behavior-listener";
-        device = <&vtrackball>;
-        bindings = <&ib_wheel_scaler 1 28>;
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
     };
 };
