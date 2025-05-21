@@ -1,3 +1,4 @@
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 2
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
@@ -9,7 +10,6 @@
 #define NUMBER  1
 #define FN  2
 #define HOTKEY  3
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 2
 
 / {
     combos {
