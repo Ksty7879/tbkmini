@@ -67,6 +67,7 @@
     };
 };
 
+  {
   trackball_scroll_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
@@ -77,3 +78,4 @@
         y-invert;
         bindings = <&ib_wheel_scaler 1 28>;
     };
+};
