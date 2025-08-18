@@ -65,10 +65,8 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
     };
-};
 
-  {
-  trackball_scroll_listener {
+    trackball_scroll_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
         layers = <MSC>;
