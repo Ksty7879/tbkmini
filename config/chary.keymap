@@ -35,6 +35,11 @@
             bindings = <&mo 3>;
             key-positions = <31 32>;
         };
+
+        mouse3 {
+            bindings = <&mo 3>;
+            key-positions = <27 28>;
+        };
     };
 
     keymap {
