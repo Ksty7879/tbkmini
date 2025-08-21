@@ -36,8 +36,8 @@
             key-positions = <31 32>;
         };
 
-        mouse3 {
-            bindings = <&mo 3>;
+        scroll2 {
+            bindings = <&mo 4>;
             key-positions = <27 28>;
         };
     };
@@ -50,7 +50,7 @@
             bindings = <
 &kp Q  &kp W  &kp E  &kp R             &kp T                  &kp Y  &kp U      &kp I      &kp O    &kp P
 &kp A  &kp S  &kp D  &kp F             &kp G                  &kp H  &kp J      &kp K      &kp L    &kp SEMI
-&kp Z  &kp X  &kp C  &kp V             &mo 2                  &kp N  &kp M      &kp COMMA  &kp DOT  &kp SLASH
+&kp Z  &kp X  &kp C  &kp V             &mo 2                  &kp N  &kp M      &kp COMMA  &kp DOT  &lt 3 FSLH
                      &kp LEFT_CONTROL  &kp LEFT_SHIFT  &mo 1  &mo 2  &kp SPACE
             >;
         };
@@ -78,9 +78,9 @@
         mouse_layer {
             label = "mouse";
             bindings = <
-&trans            &trans    &trans    &trans    &trans          &trans  &kp N7        &kp N8        &kp N9        &trans
-&kp LEFT_SHIFT    &mkp MB4  &trans    &mkp MB5  &trans          &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
-&kp LEFT_CONTROL  &mkp MB1  &mkp MB3  &mkp MB2  &trans          &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(ENTER)
+&trans            &trans    &trans    &trans    &trans          &trans  &trans     &trans     &trans     &trans
+&kp LEFT_SHIFT    &mkp MB4  &trans    &mkp MB5  &trans          &trans  &mkp MB4   &trans     &mkp MB5   &trans
+&kp LEFT_CONTROL  &mkp MB1  &mkp MB3  &mkp MB2  &trans          &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &kp LS(ENTER)
                                       &trans    &trans  &trans  &trans  &kp N0
             >;
         };
