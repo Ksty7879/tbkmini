@@ -58,10 +58,10 @@
         number_layer {
             label = "NUMBER";
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                   &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0
-&kp LEFT_SHIFT  &kp DEL       &kp UP_ARROW  &kp C_VOL_DN  &kp C_VOLUME_UP          &none         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
-&kp LCTRL       &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_PLAY_PAUSE         &none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
-                                            &kp TAB       &kp LEFT_ALT      &none  &none         &kp N0
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                   &kp NUMBER_6   &kp N7        &kp N8        &kp N9        &kp N0
+&kp LEFT_SHIFT  &kp DEL       &kp UP_ARROW  &kp C_VOL_DN  &kp C_VOLUME_UP          &none          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
+&kp LCTRL       &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_PLAY_PAUSE         &none          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
+                                            &kp TAB       &kp LEFT_ALT      &none  &kp BACKSPACE  &kp N0
             >;
         };
 
